@@ -10,9 +10,7 @@ This project aims to solve the Rubik's Cube using various graph algorithms. The 
 - [Usage](#usage)
 - [Cube Representation](#cube-representation)
 - [Solvers](#solvers)
-  - [DFS Solver](#dfs-solver)
   - [BFS Solver](#bfs-solver)
-  - [IDDFS Solver](#iddfs-solver)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -104,17 +102,12 @@ The 12 standard operations supported by the cube are:
 
 ## Solvers
 
-### DFS Solver
 
-Performs a depth-first search to solve the cube. It searches deeper into the state space before backtracking.
 
 ### BFS Solver
 
 Performs a breadth-first search to solve the cube. It explores all neighbor states at the present depth prior to moving on to states at the next depth level.
 
-### IDDFS Solver
-
-Combines the space-efficiency of DFS with the optimality of BFS. It performs DFS with increasing depth limits until a solution is found.
 
 ## Contributing
 
