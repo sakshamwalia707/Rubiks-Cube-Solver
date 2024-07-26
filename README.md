@@ -113,10 +113,5 @@ Performs a breadth-first search to solve the cube. It explores all neighbor stat
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to create a pull request or open an issue.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
 
 Enjoy solving the Rubik's Cube with graph algorithms! If you encounter any issues or have questions, please feel free to contact me.
