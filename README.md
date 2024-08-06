@@ -100,6 +100,8 @@ The 12 standard operations supported by the cube are:
 - **R'**: Right face counterclockwise
 - **R2**: Right face 180 degrees
 
+  g++ -std=c++11 main.cpp RubiksCube3dArray.cpp RubiksCube.cpp -o rubiksCube 
+
 ## Solvers
 
 
